@@ -23,6 +23,7 @@ interface State {
   editedParams: ParamValue[];
 }
 
+// не очень люблю классовый реакт, но если у вас в компании принято так, то проблем не вижу
 class ParamEditor extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
